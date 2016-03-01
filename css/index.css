@@ -1,0 +1,28 @@
+#menu { width: 300px;}
+#btnTest {
+	color: #f00;
+};
+
+.has_children{
+	background: #555;
+	color: #fff;
+	cursor: pointer;
+}
+
+.highlight{
+	color: #fff;
+	background: green;
+}
+
+div{
+	padding: 0;
+	margin: 10px 0;
+	background: #eee;
+}
+
+div a{
+	background:#888;
+	display: none;
+	float: left;
+	width: 300px;
+}
