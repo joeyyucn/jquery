@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>page2</title>
+        <link href="css/page2.css" type="text/css" rel="stylesheet" />
+        <script src="js/jquery-2.2.1.js" type="text/javascript"></script>
+        <script src="js/page2.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h2>Element selector</h2>
+        <div class="one" id="one">
+            id is one and class is one div element
+        </div>
+        <div class="one" id="two" title="test">
+            id is two and class is one title is test element
+            <div class="mini" title="other">class is mini title is other</div>
+            <div class="mini" title="test">class is mini title is test</div>
+        </div>
+        <div class="one">
+            <div class="mini">mini</div>
+            <div class="mini">mini</div>
+            <div class="mini">mini</div>
+            <div class="mini"></div>
+        </div>
+        <div class="one">
+            <div class="mini">class is mini</div>
+            <div class="mini">class is mini</div>
+            <div class="mini">class is mini</div>
+            <div class="mini" title="tesst">class is mini, title is tesst</div>
+        </div>
+        <div style="display:none;" class="none">the div display property of style is none</div>
+        <div class="hide">class is hide</div>
+        <div>
+            div contains an hidden input <input type="hidden" size="8" />
+        </div>
+        <span id="mover">span executing animation</span>
+        <form id="form1" action="#">
+            enabled:<input name="add" value="enabled text box" /><br />
+            disabled:<input name="email" disabled="disabled" value="disabled test box" /><br />
+            enabled:<input name="che" value="enabled textbox" /><br />
+            disabled:<input name="name" disabled="disabled" value="disabled text box" /><br />
+            <br />
+            multiple select :<br />
+            <input type="checkbox" name="newsletter" checked="checked" value="test1" />test1
+            <input type="checkbox" name="newsletter" value="test2" /> test2
+            <input type="checkbox" name="newsletter" value="test3" /> test3
+            <input type="checkbox" name="newsletter" value="test4" /> test4
+            <input type="checkbox" name="newsletter" value="test5" /> test5
+            <br /><br />
+            dropdown list1:<br />
+            <select name="test" multiple="multiple" style="height:100px;">
+                <option>zhejiang</option>
+                <option selected="selected">hunan</option>
+                <option>beijing</option>
+                <option selected="selected">tianjin</option>
+                <option>guangzhou</option>
+                <option>hubei</option>
+            </select>
+            <br /><br />
+            dropdown list 2:</br>
+            <select name="test2">
+                <option>zhejiang</option>
+                <option>hunan</option>
+                <option selected="selected">beijing</option>
+                <option>tianjin</option>
+                <option>guangzhou</option>
+                <option>hubei</option>
+            </select>
+            
+        </form>
+        <button id="showresult">Show result</button>
+    </body>
+</html>
