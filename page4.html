@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Page 4</title>
+
+        <!-- style -->
+        <style>
+            .high
+            {
+                font-weight: bold;
+                color: red !important;
+            }
+
+            .another
+            {
+                font-style:italic;
+                color: blue;
+            }
+        </style>
+
+        <!-- script -->
+        <script src="js/jquery-2.2.1.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var $result = $("#result");
+                var $control = $("#content");
+                $("input:eq(0)").click(function () {
+                    $result.append("<span>" + $control.attr("class") + "</span><br/>");
+                });
+                
+                $("input:eq(1)").click(function () {
+                    current_class = $control.attr("class");
+                    if (current_class == "high")
+                        $control.attr("class", "another");
+                    else
+                        $control.attr("class", "high");
+                });
+
+                $("input:eq(2)").click(function () {
+                    current_class = $control.attr("class");
+                    if (current_class == "high")
+                        $control.addClass("another");
+                    else
+                        $control.addClass("high");
+                });
+
+                $("input:eq(3)").click(function () {
+                    $control.removeClass();
+                });
+
+                $("input:eq(5)").click(function () {
+                    $control.toggleClass("another");
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <input type="button" value="print class" />
+        <input type="button" value="set class" />
+        <input type="button" value="append class" />
+        <input type="button" value="delete all class" />
+        <input type="button" value="delete certain class" />
+        <input type="button" value="repeat class" />
+        <input type="button" value="clear result" />
+        <p id="content" class="high">Hello world!</p>
+        <p class="high">high</p>
+        <p class="another">another</p>
+        <p class="high another">high another</p>
+        <p class="another high">another high</p>
+        <div id="result">
+
+        </div>
+    </body>
+</html>
