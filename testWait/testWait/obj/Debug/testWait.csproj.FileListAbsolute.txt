@@ -1,6 +1,0 @@
-C:\Users\JYu2\git\jquery\jquery\testWait\testWait\bin\Debug\testWait.exe.config
-C:\Users\JYu2\git\jquery\jquery\testWait\testWait\obj\Debug\testWait.csprojResolveAssemblyReference.cache
-C:\Users\JYu2\git\jquery\jquery\testWait\testWait\bin\Debug\testWait.exe
-C:\Users\JYu2\git\jquery\jquery\testWait\testWait\bin\Debug\testWait.pdb
-C:\Users\JYu2\git\jquery\jquery\testWait\testWait\obj\Debug\testWait.exe
-C:\Users\JYu2\git\jquery\jquery\testWait\testWait\obj\Debug\testWait.pdb
